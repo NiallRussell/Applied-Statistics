@@ -80,6 +80,6 @@ This repository contains solutions to four applied statistics problems completed
 - Performs ANOVA using `scipy.stats.f_oneway()`.
 - Runs pairwise t-tests and applies Bonferroni correction.
 
-**References:** [ANOVA Guide](https://www.graphpad.com/guides/the-ultimate-guide-to-anova), [Bonferroni Correction](https://statisticsbyjim.com/hypothesis-testing/bonferroni-correction/)
+**References:** [ANOVA Guide](https://www.graphpad.com/guides/the-ultimate-guide-to-anova), [One-Way ANOVA 1](https://statistics.laerd.com/statistical-guides/one-way-anova-statistical-guide.php), [One-Way ANOVA 2](https://statistics.laerd.com/statistical-guides/one-way-anova-statistical-guide-2.php), [Bonferroni Correction](https://statisticsbyjim.com/hypothesis-testing/bonferroni-correction/)
 
 
