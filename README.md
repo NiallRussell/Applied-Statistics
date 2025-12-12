@@ -31,7 +31,7 @@ This repository contains solutions to four applied statistics problems completed
 ## Problems Overview
 
 ### Problem 1: Lady Tasting Tea Experiment
-**Goal:** Extend Fisher’s classic hypothesis test to 12 cups (8 tea-first, 4 milk-first) and calculate probabilities of correct guesses by chance.
+**Goal:** Extend Fisher’s classic hypothesis test to 12 cups (8 tea-first, 4 milk-first) and calculate probabilities of correctly guessing all four cups by chance.
 
 **What the code does:**
 - Creates a `pandas` DataFrame representing 12 cups with brewing method and guesses.
@@ -39,7 +39,7 @@ This repository contains solutions to four applied statistics problems completed
 - Calculates number of combinations using `math.comb()` and probability of guessing all correctly.
 - Uses `itertools.combinations()` to generate all possible selections and compares overlaps.
 - Visualizes distribution of correct guesses using a bar chart.
-- Computes probabilities for guessing 0, 1, 2, or 3 cups correctly.
+- Computes probabilities for guessing 0, 1, 2, 3 or 4 cups correctly.
 
 **References:** [Lady Tasting Tea](https://jyyna.co.uk/lady-tasting-tea/), [Significance Thresholds](https://measuringu.com/setting-alpha/)
 
@@ -53,7 +53,7 @@ This repository contains solutions to four applied statistics problems completed
 - Calculates sample SD (`ddof=1`) and population SD (`ddof=0`).
 - Plots histograms of both distributions using `matplotlib`.
 
-**References:** [Standard Deviation Explained](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review)
+**References:** [Standard Deviation Explained](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review), [Sample Size and Standard Deviation](https://www.brainscape.com/flashcards/hbx-ba-2-7041759/packs/11288006#:~:text=The%20sample%20mean%20and%20standard%20deviation%20generally,grows%2C%20the%20sample%20mean%20and%20standard%20deviation)
 
 ---
 
@@ -75,8 +75,8 @@ This repository contains solutions to four applied statistics problems completed
 **Goal:** Compare means of three groups using ANOVA and post-hoc tests.
 
 **What the code does:**
-- Generates three samples from normal distributions with different means.
-- Displays descriptive statistics using `pandas`.
+- Generates three samples from normal distributions with different means (0, 0.5, 1)
+- Displays descriptive statistics using `pandas` Dataframe.
 - Performs ANOVA using `scipy.stats.f_oneway()`.
 - Runs pairwise t-tests and applies Bonferroni correction.
 
